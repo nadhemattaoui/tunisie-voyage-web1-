@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunisie Voyage</title>
+    <link href="/logo .png" rel="icon">
+    <link rel="stylesheet" href="/type.css">
+</head>
+
+<body>
+    <header class=entete>
+        <div class="tete">
+            <img src="/logo .png" width="250px" height="70px">
+            <form class="bouton">
+                <input type="text" placeholder="Qu'est ce que vous chercher?" class="bordure">
+                <button type="submit" value="rechercher">Recherche </button>
+            </form>
+            <ul class="alignement" type="none">
+                <li><a href="/index.html"> A propos</a></li>
+                <li><a href="/recommendation.html"> Recommandation</a></li>
+                <li><a href="/contact.html"> Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <br><br><br><br><br>
+    <h1 class="histoire">Pourquoi nous ecrire?</h1><br><br>
+    <p class="paragraphe">L’équipe de Generation Voyage vous remercie d’avance pour votre message. Quoi que vous allez
+        nous
+        dire, vous prenez la bonne décision ! Le plus important pour que votre message arrive à bon port,
+        est que vous vous adressiez au bon service ! En tant que voyageur.se, vous devriez rapidement trouver
+        votre chemin.</p>
+    <br><br><br><br><br>
+    <h1 class="histoire"> Quel est l’objectif de votre message ?</h1><br><br>
+    <div class="grandboite">
+        <div class="petitboite">
+            <div class="boitecontact"><br>
+                <h3 class="HH">La Rédaction</h3><br>
+                <p>Vous souhaitez nous envoyer une idée d’article ou faire une demande de contribution, nous donner
+                    votre avis le site ou nous remonter une erreur ? Ecrivez à la rédaction:<br><br><br><br><br>
+                    <span class="site">redaction@generationvoyage.fr</span>
+                </p>
+            </div>
+            <br>
+            <div class="boitecontact"><br>
+                <h3 class="HH">Partenariats</h3><br>
+                <p>Vous avez été séduit par nos contenus et souhaitez mettre en place un partenariat fort avec
+                    Generation Voyage. Vous souhaitez référencer votre entreprise sur notre média ? Ecrivez-nous à
+                    cette adresse : <br><br><br><br>
+                    <span class="site">partenariats@generationvoyage.fr</span>
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="petitboite">
+            <div class="boitecontact"><br>
+                <h3 class="HH">Signaler une erreur</h3><br>
+                <p>Vous avez relevé une coquille dans un article ou souhaitez proposer une mise à jour
+                    ?<br><br><br><br><br>
+                    <span class="site">Cliquez ici</span>
+                </p>
+
+            </div>
+            <br>
+            <div class="boitecontact"><br>
+                <h3 class="HH">Devenir rédacteur.trice</h3><br>
+                <p>Vous êtes passionné.e de voyages et pensez avoir une belle plume ? N’hésitez pas à
+                    rejoindre notre équipe d’Expert Locaux ! Rendez-vous sur cette page:<br><br><br><br>
+                    <span class="site">Recrutement rédaction</span>
+                </p>
+
+            </div>
+        </div>
+        <br>
+        <div class="petitboite">
+            <div class="boitecontact"><br>
+                <h3 class="HH">Candidature spontanée</h3><br>
+                <p>Vous adorez ce que l’on fait chez Generation Voyage ? Rejoignez une entreprise jeune
+                    et dynamique, qui développe de nombreux projets ! Rendez-vous sur cette page:<br><br><br><br><br>
+                    <span class="site">Rejoindre l’équipe</span>
+                </p>
+
+            </div>
+            <br>
+            <div class="boitecontact"><br>
+                <h3 class="HH">Général</h3><br>
+                <p>Vous avez une question générale sur notre média, notre entreprise ou autre ? Vous
+                    n’avez pas trouvé le service adapté à votre demande ? Ecrivez à l’équipe:<br><br><br><br>
+                    <span class="site">contact@generationvoyage.fr</span>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <p class="form"> une fois Vous avez choisit la ville que vous avez été attiré par , remplissez le formulaire
+        ci dessous avec tous les détails et on vous encoie sur votre boite mail l'offre adéquate
+        à vos attente ;) </p>
+
+    <br><br><br><br>
+
+
+    <form class="formulaire" onsubmit="submitForm(event)">
+        <div class="fomulaire1">
+            <label class="formulaire2">Name :</label><br><br>
+            <input type="text" name="NAME" placeholder="Ecrire votre nom" class="bordure marge"/>
+        </div>
+        <br />
+        <div class="fomulaire1">
+            <label class="formulaire2">Ville :</label><br><br>
+            <select class="bordure marge">
+                <option value="DJERBA">DJERBA</option>
+                <option value="MAHDIA">MAHDIA</option>
+                <option value="SOUSSE">SOUSSE</option>
+                <option value="MONASTIR">MONASTIR</option>
+                <option value="BEJA">BEJA</option>
+                <option value="KAIROUAN">KAIROUAN</option>
+              </select>
+        </div>
+        <br />
+        <div class="fomulaire1">
+            <label class="formulaire2">Logement :</label><br><br>
+            <select class="bordure marge">
+                <option value="HOTEL">Hotel</option>
+                <option value="Maison d'hote">Maison d'hote</option>
+                <option value="Maison">Maison</option>
+                <option value="Motel">Motel</option>
+              
+              </select>
+        </div>
+        <br />
+        <div class="fomulaire1">
+            <label class="formulaire2">Nb de personnes :</label><br>
+            <input type="number" name="number value"  class="bordure marge" placeholder="Nb de personnes" />
+        </div>
+        <br />
+
+        <div class="fomulaire1">
+            <label class="formulaire2">Nb de jours :</label><br><br>
+            <input type="number" name="number value"  class="bordure marge" placeholder="Nb de jours"/>
+        </div>
+        <br />
+        <div class="fomulaire1">
+            <label class="formulaire2">Budget Max :</label><br><br>
+            <input type="value" name=""   class="bordure marge" placeholder="Budget Max en dinars"/>
+        </div>
+        <br />
+        <div class="fomulaire1">
+            <label class="formulaire2">Mail :</label><br><br>
+            <input type="text" name="mail" class="bordure marge" placeholder="Taper votre mail"/>
+        </div>
+        <br />
+        <br>
+        <button type="submit" id="button">Enregistrer </button>
+    </form>
+
+    <br> <br> <br>
+
+    <footer>
+        <div class="colorpied">
+            <br>
+            <div class="pied">
+                <div>
+                    <h2> Tunisie voyage</h2><br>
+                    <h3>Vivez des expériences mémorables</h3><br>
+                    <p>Depuis 2013, Generation Voyage fait découvrir des<br>
+                        expériences mémorables
+                        et aide ses utilisateurs à les vivre.</p>
+                </div>
+                <div>
+                    <h2> A propos</h2><br>
+                    <p><a href="/Notre équipe.html">Notre équipe</a> </p><br>
+                    <p><a href="/Notre équipe.html">Nos projets</a> </p><br>
+                    <p><a href="/Notre équipe.html">Conditions générales</a> </p><br>
+                    <p><a href="/Notre équipe.html">Recrutement</a> </p>
+                </div>
+                <div>
+                    <h2>Suivez nous</h2><br>
+                    <img src="/imgs/icon/facebook-new.png" width="40px" height="40px">
+                    <img src="/imgs/icon/instagram.png" width="40px" height="40px">
+                    <img src="/imgs/icon/linkedin.png" width="40px" height="40px">
+                    <img src="/imgs/icon/Pinterest.png" width="40px" height="40px">
+                </div>
+            </div>
+        </div>
+        <hr size="3" color="black" ALIGN=CENTER>
+
+        <div class="droit">
+            <p>© 2013-2022 <span class="span">Tunisie Voyage</span> Tous droits réservés</p>
+            <p> - Fait avec ❤ à sousse par <span class="span"> Nadhem Attaoui</span> </p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
